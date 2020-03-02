@@ -12,7 +12,7 @@ Create and deploy ducks in 4 easy steps!
 
 The first prompt will ask the user: `Enter the Pond's Upper-Right Coordinates`. Use two integers separated by a single space to determine the maximum size of the pond. For example, `5 10` would generate a pond that is 5 horizontal spaces and 10 vertical spaces on a grid.
 
-The second prompt asks the user `Would you like to make a new duck? Y/N` to which you can reply `Y` or `N`. This will create a new instance of the Duck class.
+The second prompt asks the user `Would you like to make a new duck? Y/N` to which you can reply `Y` or `N`. This will create a new instance of the Duck class, or end the program and return the positions of all ducks created thus far.
 
 The third prompt is `Enter Duck's Position and Facing`. This expects the user to enter two integers and a single letter representing the cardinal direction the duck will start facing (`N`, `E`, `S`, or `W`). For example, to start the duck at 2, 3 and facing north a user would input `2 3 N'
 
